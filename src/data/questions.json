@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "type": "single",
+    "question": "What is the capital of France?",
+    "options": ["Berlin", "Madrid", "Paris", "Rome"],
+    "correctAnswers": ["Paris"]
+  },
+  {
+    "id": 2,
+    "type": "multiple",
+    "question": "Which of the following are JavaScript frameworks?",
+    "options": ["React", "Django", "Vue", "Laravel", "Angular"],
+    "correctAnswers": ["React", "Vue", "Angular"]
+  },
+  {
+    "id": 3,
+    "type": "single",
+    "question": "What does CSS stand for?",
+    "options": [
+      "Computer Style Sheets",
+      "Cascading Style Sheets",
+      "Creative Style System",
+      "Colorful Style Sheets"
+    ],
+    "correctAnswers": ["Cascading Style Sheets"]
+  }
+]
