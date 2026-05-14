@@ -3,15 +3,13 @@ import "./App.css";
 
 function App() {
   return (
-    <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<>Start</>} />
-          <Route path="/quiz" element={<>Quiz</>} />
-          <Route path="/results" element={<>Results</>} />
+          <Route path="/" element={<h1>Start</h1>} />
+          <Route path="/quiz" element={<h1>Quiz</h1>} />
+          <Route path="/results" element={<h1>Results</h1>} />
         </Routes>
       </BrowserRouter>
-    </>
   );
 }
 
